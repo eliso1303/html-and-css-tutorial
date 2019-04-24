@@ -1,21 +1,23 @@
-.badge {
-    width:100px;
-    height:100px;
-    background:bisque;
-    margin-bottom:20px;
-    border-radius:5px;
-    position:relative;
-}
-.badge .label {
-    height:20px;
-    background-color:red;
-    color:white;
+.message {
     position:absolute;
-    right:0px;
-    top:0px;
-    transform: translate(50%,-50%);
-    border-radius:40px;
-    text-align:center;
-    padding:1px 6px;
-    border:1px solid white;
+    top:30px;
+    right:30px;
+    width:300px;
+    padding:10px;
+    border:1px solid black;
+}
+.message a {
+    text-decoration:none;
+    color:gray;
+    position: absolute;
+    top:10px;
+    right:15px;
+}
+.message span {
+    color:gray;
+    width:280px;
+    display: block;
+}
+.message p {
+    margin:0 0 10px;
 }
