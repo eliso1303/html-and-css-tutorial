@@ -8,6 +8,7 @@ footer {
 }
 .top {
     background:#222533;
+    padding-bottom: 97px;
 }
 .bottom {
     background:#171D22;
@@ -42,9 +43,11 @@ footer {
     font-size:16px;
     line-height:24px;
     color:#fff;
-    margin-top:97px;
-    margin-bottom:37px;
+    margin-top:95px;
+    margin-bottom:35px;
     text-transform: uppercase;
+    letter-spacing: 4.7px;
+    word-spacing: 0.8px;
 }
 .top .wrap h3:after {
     content:'';
@@ -52,27 +55,21 @@ footer {
     height:1px;
     background:#1ABC9C;
     display: block;
+    margin-top: 5px;
 }
 
 .wrap ul li {
     list-style: none;
     display: flex;
     flex-direction: column;
-    /* border-bottom:1px solid #343A47; 
-    padding:17px 0px;*/
 }
-/* .wrap ul li:last-child {
-    border:none;
-}
-.wrap ul li:first-child {
-    border-bottom:1px solid #343A47;
-} */
+
 .wrap ul li:after {
     content:'';
     height:3px;
     width:100%;
     background:#343A47;
-    margin:10px 0px;
+    margin: 15px 0px 15px;
 }
 .wrap ul li:last-child::after {
     display: none;
@@ -101,15 +98,25 @@ footer {
     font-size:14px;
     line-height: 24px;
     color:#A1B1BC;
-    margin-bottom:20px;
-    margin-top:17px;
+    margin-bottom: 11px;
+    margin-top: -2px;
+    margin-left: 3px;
+    word-spacing: -0.4px;
 }
+
 .wrap .notes a {
     font-family: 'PT Sans';
     font-weight: 700;
-    font-size:14px;
+    font-size: 14px;
     line-height: 24px;
-    color:#1ABC9C;
+    color: #1ABC9C;
     text-decoration: none;
     text-transform: uppercase;
+    margin-left: 2px;
+}
+
+.bottom .wrap p {
+    padding: 19px 0px;
+    letter-spacing: -0.1px;
+    word-spacing: 0.1px;
 }
